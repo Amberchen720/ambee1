@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GREEN TARA</title>
+      <style> 
+	  body{
+	  background:url(http://i.imgur.com/pT2WXnJ.jpg) no-repeat;
+	  width:1129px;height:1192px;
+	  }
+	  .circle{background:url(http://i.imgur.com/ESqk0MV.png) no-repeat;
+	  width:464px;
+	  height:464px;
+	  margin:0 auto;
+	  position:relative;
+	  top:717px;
+	  left:-6px;
+	  -webkit-animation: circle 11s infinite linear;
+	  -moz-animation: circle 11s infinite linear;
+	  -o-animation: circle 11s infinite linear;
+	  animation:circle 11s infinite linear;}
+	  @-webkit-keyframes circle {
+		from {
+			-webkit-transform: rotate(0deg);
+		}
+		to {
+			-webkit-transform: rotate(360deg);
+		}
+	}
+	@-moz-keyframes circle {
+		from {
+			-moz-transform: rotate(0deg);
+		}
+		to {
+			-moz-transform: rotate(360deg);
+		}
+	}
+	@-o-keyframes circle {
+		from {
+			-o-transform: rotate(0deg);
+		}
+		to {
+			-o-transform: rotate(360deg);
+		}
+	}
+	@keyframes circle {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	
+	  </style>
+  </head>
+  <body>
+   <div class="circle"></div>
+
+ </body>
+</html>
